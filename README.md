@@ -11,9 +11,10 @@ Since this deep learning model contains more than 30,000 historical data, data p
 ### Data Preprocessing
 - Target variables
 
-The target variable is the "IS_SUCCESSFUL" column, representing the binary past project result. "1" for "YES" and "0" for "NO".  
+    The target variable is the "IS_SUCCESSFUL" column, representing the binary past project result. "1" for "YES" and "0" for "NO".  
 
 - Features variables include:
+
 EIN and NAME—Identification columns
 APPLICATION_TYPE—Alphabet Soup application type
 AFFILIATION—Affiliated sector of industry
