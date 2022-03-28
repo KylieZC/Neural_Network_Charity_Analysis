@@ -30,15 +30,16 @@ IS_SUCCESSFUL—Was the money used effectively
 Drop the EIN and NAME columns because they are neither targets nor features. In shorts, they are non-beneficial to the model analysis. 
 
 ### Compiling, Training, and Evaluating the Model
-- neurons, layers, and activation functions selection
+- Neurons, Layers, and Activation functions selection
+
 The initial neuron network used with Relu activation has 35 neurons input, one output layer.The reason for the Relu method selection is that it is an excellent choice to handle complex data and reduce the possibility of overfitting and vanishing gradients. 
 
-- Target and result
+- Target and Result
     - The performance target is 75%, but the final has a short distance to the ideal result(72.6% accuracy).
-    - The First attemp with a 56.4% loss and 72.2% accuracy 
+    - **The First attemp** with a 56.4% loss and 72.2% accuracy 
     ![4](pic/4.png)
     
-    - The second attempt adds twice neurons of 80 in layer1 and 40 neurons in layer2. Both choose not a too big number to avoid overfitting, and twice the number is a good rule to explore—the result is approximately 56% loss and about 72.6% accuracy. Increase a little compared to the first attempt.
+    - **The second attempt** adds twice neurons of 80 in layer1 and 40 neurons in layer2. Both choose not a too big number to avoid overfitting, and twice the number is a good rule to explore—the result is approximately 56% loss and about 72.6% accuracy. Increase a little compared to the first attempt.
 ![3](pic/3.png)
 ![result1](pic/result1.png)
 
