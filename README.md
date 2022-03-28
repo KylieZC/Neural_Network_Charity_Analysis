@@ -16,8 +16,11 @@ Since this deep learning model contains more than 30,000 historical data, data p
 - Features variables include:
 
 EIN and NAME—Identification columns
+
 APPLICATION_TYPE—Alphabet Soup application type
+
 AFFILIATION—Affiliated sector of industry
+
 CLASSIFICATION—Government organization classification
 USE_CASE—Use case for funding
 ORGANIZATION—Organization type
