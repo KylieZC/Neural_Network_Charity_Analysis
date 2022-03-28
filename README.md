@@ -29,6 +29,7 @@ Since this deep learning model contains more than 30,000 historical data, data p
 - Remove variables
 
 ![drop](pic/drop.png)
+  
   Drop the EIN and NAME columns because they are neither targets nor features. In shorts, they are non-beneficial to the model analysis. 
 
 ### Compiling, Training, and Evaluating the Model
