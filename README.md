@@ -10,6 +10,7 @@ Since this deep learning model contains more than 30,000 historical data, data p
 ## Results
 ### Data Preprocessing
 - Target variables
+
 The target variable is the "IS_SUCCESSFUL" column, representing the binary past project result. "1" for "YES" and "0" for "NO".  
 
 - Features variables include:
@@ -26,6 +27,7 @@ ASK_AMT—Funding amount requested
 IS_SUCCESSFUL—Was the money used effectively
 
 - Remove variables
+
 ![drop](pic/drop.png)
 Drop the EIN and NAME columns because they are neither targets nor features. In shorts, they are non-beneficial to the model analysis. 
 
