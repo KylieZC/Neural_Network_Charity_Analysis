@@ -34,7 +34,7 @@ Drop the EIN and NAME columns because they are neither targets nor features. In 
 ### Compiling, Training, and Evaluating the Model
 - Neurons, Layers, and Activation functions selection
 
-The initial neuron network used with Relu activation has 35 neurons input, one output layer.The reason for the Relu method selection is that it is an excellent choice to handle complex data and reduce the possibility of overfitting and vanishing gradients. 
+  The initial neuron network used with Relu activation has 35 neurons input, one output layer.The reason for the Relu method selection is that it is an excellent choice to handle complex data and reduce the possibility of overfitting and vanishing gradients. 
 
 - Target and Result
     - The performance target is 75%, but the final has a short distance to the ideal result(72.6% accuracy).
